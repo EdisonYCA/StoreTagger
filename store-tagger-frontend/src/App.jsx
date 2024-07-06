@@ -1,8 +1,15 @@
+import '../index.css';
+
 function App() {
   return (
-    <div>
-        <h1>React Essentials</h1>
-    </div>
+    <body>
+      <p>Add Store</p>
+      <div className='form-group'>
+        <p>Name: </p>
+        <input type="text"></input>
+        <button>Add</button>
+      </div>
+    </body>
   );
 }
 
